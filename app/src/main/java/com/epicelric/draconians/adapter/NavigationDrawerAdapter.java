@@ -1,5 +1,7 @@
 package com.epicelric.draconians.adapter;
-
+/**
+ * Created by Elric on 5/12/2016.
+ */
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -13,9 +15,6 @@ import com.epicelric.draconians.R;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by Elric on 5/12/2016.
- */
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.MyViewHolder> {
     List<NavDrawerItem> data = Collections.emptyList();
     private LayoutInflater inflater;

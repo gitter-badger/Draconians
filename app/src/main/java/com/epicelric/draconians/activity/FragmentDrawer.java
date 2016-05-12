@@ -1,5 +1,4 @@
 package com.epicelric.draconians.activity;
-
 /**
  * Created by Elric on 5/12/2016.
  */
