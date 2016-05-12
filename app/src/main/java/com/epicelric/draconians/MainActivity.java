@@ -1,4 +1,4 @@
-package com.draconianfleet.draconians;
+package com.epicelric.draconians;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
