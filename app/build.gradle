@@ -25,9 +25,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:cardview-v7:23.3.0'
     compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
     compile 'net.bican:jwordpress:0.6.4'
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
 }
 repositories {
+    mavenCentral()
     maven {
         url "https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/"
     }
