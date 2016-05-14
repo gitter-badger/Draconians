@@ -49,20 +49,25 @@ public class MainActivity extends AppCompatActivity{
 
 
                 if (menuItem.getItemId() == R.id.nav_item_settings) {
-                    //FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
-                    //fragmentTransaction.replace(R.id.containerView,new SettingsFragment()).commit();
+                    menuItem.setChecked(true);
+                    FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+                    fragmentTransaction.replace(R.id.containerView,new SettingsFragment()).commit();
 
                 }
 
                 if (menuItem.getItemId() == R.id.nav_item_home) {
+                    menuItem.setChecked(true);
                     FragmentTransaction xfragmentTransaction = mFragmentManager.beginTransaction();
                     xfragmentTransaction.replace(R.id.containerView,new TabFragment()).commit();
+
                 }
 
                 return false;
             }
 
         });
+
+
 
         /**
          * Setup Drawer Toggle of the Toolbar

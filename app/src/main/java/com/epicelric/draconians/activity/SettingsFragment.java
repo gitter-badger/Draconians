@@ -12,12 +12,12 @@ import com.epicelric.draconians.R;
 /**
  * Created by Elric on 5/13/2016.
  */
-public class VotesFragment extends Fragment {
+public class SettingsFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.votes_layout,null);
+        return inflater.inflate(R.layout.settings_layout,null);
 
 
     }
