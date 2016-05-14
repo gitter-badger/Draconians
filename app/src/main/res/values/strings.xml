@@ -34,4 +34,8 @@
     <string name="drawer_menu_feedback">Feedback</string>
     <string name="drawer_menu_logout">Logout</string>
     <string name="drawer_menu_dues">Dues</string>
+    <string name="drawer_menu_report_bug">Report Bug</string>
+    <string name="news_layout_cardview_desc">Have you got what it takes to truly be called a pirate? Do you deserve a piece of this glorious treasure? The Pirates have plundered hoards of Treasure all year round. Now is the time to stake your claim on this Bountiful Booty.</string>
+    <string name="news_layout_cardview_title">9th Annual Pirates Plunder</string>
+    <string name="testdesc"><![CDATA[Step back in time for a day of revels at the Faire In The Grove! JoinMcMenamins Grand Lodge, and The Barony of Dragon\'s mist, Medieval Re-enactors, Armored Fighters & History Buffs, who invite you to experience the Middle Ages and the Renaissance!]]></string>
 </resources>
