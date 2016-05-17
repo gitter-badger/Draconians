@@ -1,6 +1,7 @@
 package com.epicelric.draconians.activity;
 
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -20,7 +21,11 @@ public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
         setContentView(R.layout.activity_main);
+
+        
+
 
         /**
          *Setup the DrawerLayout and NavigationView
@@ -50,8 +55,9 @@ public class MainActivity extends AppCompatActivity{
 
                 if (menuItem.getItemId() == R.id.nav_item_settings) {
                     menuItem.setChecked(true);
-                    FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView,new SettingsFragment()).commit();
+                    getFragmentManager().beginTransaction()
+                            .replace(R.id.containerView, new SettingsFragment())
+                            .commit();
 
                 }
 
@@ -73,13 +79,25 @@ public class MainActivity extends AppCompatActivity{
          * Setup Drawer Toggle of the Toolbar
          */
 
+
+
         android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this,mDrawerLayout, toolbar,R.string.app_name,
                 R.string.app_name);
+
+//        if(toolbar != null) {
+//            setSupportActionBar(toolbar);
+//            getSupportActionBar().setTitle("My custom toolbar!");
+//            getSupportActionBar().setHomeButtonEnabled(true);
+//            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        }
 
         mDrawerLayout.addDrawerListener(mDrawerToggle);
 
         mDrawerToggle.syncState();
 
+
     }
+
+
 }

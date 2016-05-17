@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0066FF</color>
+    <color name="colorPrimary">#3399ff</color>
     <color name="colorPrimaryDark">#002966</color>
+    <color name="colorTabs">#0080ff</color>
+    <color name="colorSelected">#ffff00</color>
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="windowBackground">#CCCCCC</color>
     <color name="navigationBarColor">#003d99</color>
     <color name="colorAccent">#e6b800</color>
+    <color name="splashScreen">#3399ff</color>
 
 
     <color name="colorControlNormal">#ffffff</color>
