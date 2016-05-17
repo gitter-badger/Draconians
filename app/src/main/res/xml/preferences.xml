@@ -5,4 +5,19 @@
         android:title="@string/pref_sync"
         android:summary="@string/pref_sync_summ"
         android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_sync2"
+        android:title="@string/pref_sync"
+        android:summary="@string/pref_sync_summ"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_sync3"
+        android:title="@string/pref_sync"
+        android:summary="@string/pref_sync_summ"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_sync4"
+        android:title="@string/pref_sync"
+        android:summary="@string/pref_sync_summ"
+        android:defaultValue="true" />
 </PreferenceScreen>
