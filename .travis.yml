@@ -12,3 +12,6 @@ script:
    
 before_install:
    - chmod +x gradlew
+   
+notifications:
+  slack: epic-productions:6xnziz4cgS04gmXSnvUMYeHO
