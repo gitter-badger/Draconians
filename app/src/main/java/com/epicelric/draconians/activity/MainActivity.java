@@ -57,8 +57,6 @@ public class MainActivity extends AppCompatActivity{
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 mDrawerLayout.closeDrawers();
 
-
-
                 if (menuItem.getItemId() == R.id.nav_item_settings) {
                     /**  Settings menu being called */
                     menuItem.setChecked(true); //Set Menu item to highlighted
@@ -94,13 +92,9 @@ public class MainActivity extends AppCompatActivity{
 
         });
 
-
-
         /**
          * Setup Drawer Toggle of the Toolbar
          */
-
-
 
         android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this,mDrawerLayout, toolbar,R.string.app_name,R.string.app_name);
